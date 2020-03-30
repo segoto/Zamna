@@ -9,6 +9,7 @@ window.onload = function collapsable(){
     }
 }
 
+
 function enviarMensaje(){
     document.getElementById("nombre").value = "";
     document.getElementById("correo").value = "";
