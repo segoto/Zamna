@@ -8,3 +8,10 @@ window.onload = function collapsable(){
         document.getElementById("a-colapsar").innerHTML = "";
     }
 }
+
+function enviarMensaje(){
+    document.getElementById("nombre").value = "";
+    document.getElementById("correo").value = "";
+    document.getElementById("mensaje").value = "";
+    alert("Has enviado el mensaje correctamente");
+}

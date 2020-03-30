@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./style.css">
-    
+    <script src="./trabaja.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="icon" href="./images/LogoSinTexto.png">
     <title>Zamna</title>
   </head>
@@ -16,12 +16,12 @@
         <div class="topbar inner">
           <div class="row">
             <div class="col-lg-6 col-sm">
-              <a class = "topbar-link" href="#"><img src="./images/LogoSinTexto.png" alt="logo" width = "50" height= "50"> Zamna</a>  
+              <a class = "topbar-link titulo" href="./index.html"><img src="./images/LogoSinTexto.png" alt="logo" width = "50" height= "50"> ZAMNA</a>  
             </div>
             <div class="col-lg-6" id="a-colapsar">
               <nav class="nav float-right">
-                <a class = "topbar-link" href="#comoFunciona">¿Cómo funciona?</a>
-                <a class = "topbar-link"  href="#contactar">Contáctanos</a>
+                <a class = "topbar-link" href="./index.html#comoFunciona">¿Cómo funciona?</a>
+                <a class = "topbar-link"  href="./index.html#contactar">Contáctanos</a>
                 <a class = "topbar-link" href="./trabajaConNosotros.html">¿Quieres ser parte?</a>
               </nav>
             </div>
@@ -39,12 +39,13 @@
             <div class="agrega-CV">
                 <div class="formulario">
                     <h3 id="contacto">Queremos saber de ti</h3>
-                    <input type="text" class="input-contacto" placeholder="Nombre">
-                    <input type="email" class="input-contacto" placeholder="Correo">
+                    <input type="text" class="input-contacto" id = "nombre" placeholder="Nombre">
+                    <input type="email" class="input-contacto" id= "correo" placeholder="Correo">
                     <div class="custom-file">
                             <input type="file" class="input-contacto" id="CV">
                             <label class="custom-file-label" for="CV">Agregue su CV</label>
                     </div>
+                    <button type="button" onclick="enviarCV()" id="enviar" style="margin-top: 2.5rem;">Enviar</button>
                 </div>
             </div>
           </div>
