@@ -1,5 +1,4 @@
 
-
 window.onload = function collapsable(){
     var w = window.innerWidth;
     console.log(document.getElementById("a-colapsar"))
@@ -8,7 +7,6 @@ window.onload = function collapsable(){
         document.getElementById("a-colapsar").innerHTML = "";
     }
 }
-
 
 function enviarMensaje(){
     document.getElementById("nombre").value = "";
