@@ -1,15 +1,76 @@
-.header{
+.grapper{
+    text-align: center;
+    display: inline-block;
+    width:100%;
+}
+.topbar{
+    padding-left : 35px;
+    padding-right:20px;
+}
+.topbar-link{
+    padding : 15px;
+    color: white;
+    font-weight: bold;
+}
+.topbar-link:hover{
 
 }
-.incio{
-
+.alignment-left{
+    text-align: justify;
 }
-.footer{
-
+.igualar{
+    margin-top: 5.4rem;
 }
-.descripcion{
-
-}
-.explicacion{
+.demostracion{
+    padding-top: 3rem;
+    background-color: rgb(92,163,84,0.6);
+    padding-bottom:2rem;
     
+}
+.verde{
+    background-color:#2f5549; 
+}
+.bordes{
+    border-color: #cccccc;
+    border-style: solid;
+    border-radius: 25px;
+}
+.pasos{
+    padding : 0.4rem;
+}
+.carta-contacto{
+    width: 30rem;
+    border-color:#999999;
+    border-style: solid;
+    border-radius: 25px;
+    background-color:white;
+}
+
+#contacto{
+    
+    padding: 3rem;
+}
+.label-contacto{
+    
+    float:left;
+}
+.input-contacto{
+    float:left;
+    width: 100%;
+    margin-bottom:4rem;
+    border:0;
+    border-bottom:0.3px solid;
+    background:transparent;
+    
+}
+#mensaje{
+    padding-bottom: 3rem;
+}
+.formulario{
+    padding:1rem;
+}
+.Contactanos{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(92,163,84,0.6);
 }
